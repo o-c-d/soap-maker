@@ -1,0 +1,6 @@
+services:
+
+    Ocd\SoapMakerBundle\Maker\MakeSoapClass:
+        tags:
+            - { name: 'console.command', command: 'make:soap:class' }
+        public: true

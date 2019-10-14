@@ -1,0 +1,23 @@
+{
+  "name": "ocd/soap-maker-bundle",
+  "type": "symfony-bundle",
+  "description": "Soap Maker Bundle",
+  "keywords": ["soap"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "-",
+      "email": "-@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-soap": "*",
+    "symfony/maker-bundle": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OCD\\SoapMakerBundle\\": "src/SoapMakerBundle"
+    }
+  }
+}
